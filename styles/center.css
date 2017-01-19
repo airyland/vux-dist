@@ -1,0 +1,14 @@
+.vux-center-v, .vux-center-h, .vux-center {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vux-center-v, .vux-center {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.vux-center-h, .vux-center {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
